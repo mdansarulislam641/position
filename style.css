@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+/* -----start main_div part----------- */
+.main_div{
+    height:500px;
+    background-color: aqua;
+    position:relative;
+    padding:50px;
+}
+
+
+/* -static positon part here---- */
+.static_position{
+    height:500px;
+    /* width:95%; */
+    background-color: transparent;
+    border:2px solid royalblue;
+    position:static;
+}
+.static_position p{
+    text-align: center;
+}
+
+/* ---absolute position part start here------ */
+.absolute_one{
+    width:100px;
+    height:100px;
+    background:tomato;
+    position:absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    border:1px solid royalblue;
+    
+}
+.absolute_two{
+    width:100px;
+    height:100px;
+    background:tomato;
+    position:absolute;
+    top:18%;
+    right:1%;
+    text-align: center;
+    border:1px solid royalblue;
+    
+}
+.absolute_three{
+    width:100px;
+    height:100px;
+    background:tomato;
+    position:absolute;
+    bottom:2%;
+    left:1%;
+    text-align: center;
+    border:1px solid royalblue;
+    
+}
+
+
+
+/* -----end main_div part----------- */
